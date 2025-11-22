@@ -1,0 +1,11 @@
+name: wwm_localization
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - pyzstd>=0.15.0
+    - PyQt5>=5.15.0
+

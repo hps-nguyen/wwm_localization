@@ -1,0 +1,12 @@
+# Where Winds Meet Localization Tools
+# Dependencies for text extraction and repacking
+
+# Core dependencies
+pyzstd>=0.15.0  # ZSTD compression/decompression (for binary file handling)
+
+# Optional GUI dependencies
+PyQt5>=5.15.0  # GUI framework (optional, for GUI tools)
+
+# Standard libraries (usually included with Python)
+# csv, json, struct, os, sys, re - built-in modules
+

@@ -1,0 +1,44 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# Backup folder
+backup/
+
+# Binary files
+*.dat
+*.bin
+*.hex
+*.mpk
+
+# Translation data files
+*.tsv
+*.json
+
+# Language folder files (keep directory structure)
+# Ignore all files in language directory and subdirectories
+language/**/*
+# Allow the language directory and its subdirectories to be traversed
+!language/
+!language/*/
+# Allow .gitkeep files at any depth to preserve directory structure
+!language/**/.gitkeep
+
+# Translation folder (keep directory structure)
+!translation/.gitkeep
+
+# Temporary directories
+temp_*/
